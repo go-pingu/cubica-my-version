@@ -1,0 +1,366 @@
+body{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: rgba(58, 58, 58, 0.9);
+}
+
+.h2{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.h2::before{
+  display: block;
+  content: "";
+  width: 6rem;
+  height: 2px;
+  background-color: rgba(58, 58, 58, 0.8);
+  margin-bottom: 2rem;
+}
+
+.h2_style{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+h5{
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.page_btn{
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: all .5s;
+  font-size: 0.9rem;
+  border: 2px solid rgb(58, 58, 58);
+  color: rgba(58, 58, 58, 0.8);
+  text-decoration: none;
+  padding: 0.7rem 2.5rem;
+  margin-top: 4rem;
+}
+
+.page_btn:hover{
+  text-decoration: none;
+  color: #fff !important;
+  background: rgb(58, 58, 58);
+}
+
+/*end global styles */
+
+.navbar{
+  background-color: #fff;
+  box-shadow: 0px 0.3rem 0.5rem #efefef;
+}
+
+.navbar .logo_wrapper{
+  width: 13rem;
+  min-height: 5.5rem;
+  position: relative;
+}
+
+.navbar .brand_logo{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: auto;
+}
+
+.brand_logo img{
+  display: inline-block;
+  white-space: nowrap;
+  height: auto;
+  width: 10rem;
+}
+
+.navbar ul{
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+/* end navbar */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  z-index: 10;
+  top: 50%;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item .first-slide{
+  background-image: linear-gradient(rgb(100, 100, 100), rgba(0, 0, 0, 0.1)), url(http://www.cubica.com.pl/wp-content/uploads/2017/01/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	background-position: 50% 50%;
+  height: 100%;
+}
+
+.carousel-item .second-slide{
+  background-image: linear-gradient(rgb(100, 100, 100), rgba(0, 0, 0, 0.1)), url(http://www.cubica.com.pl/wp-content/uploads/2017/01/zdjecia-2a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	background-position: 50% 50%;
+  height: 100%;
+}
+
+.carousel_header {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel_header .top_border{
+  max-width: 6rem;
+  border: 1px solid #fff;
+  margin: 3rem auto;
+}
+
+.carousel_header .h1_style{
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: auto;
+}
+
+.carousel_header p{
+  padding-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.carousel .carousel-indicators li{
+  width: 2.3rem;
+  height: .45rem;
+}
+/* end carousel */
+
+.section1{
+  background-image: url(http://www.cubica.com.pl/wp-content/themes/synteco/images/tloRysunek.png);
+  background-size: cover;
+  padding-top: 9rem;
+  padding-bottom: 3rem;
+}
+
+.section1_feature{
+  padding-left: 2rem;
+  position: relative;
+}
+
+.section1_h5{
+  padding-bottom: 2rem;
+}
+
+.section1_feature::before{
+  position: absolute;
+  top: -2.3rem;
+  left: 0;
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  padding-bottom: 3.2rem;
+  color: #e0e0e0;
+}
+
+.section1_feature:first-of-type::before{
+  content: '01';
+}
+
+.section1_feature:nth-child(2)::before{
+  content: '02';
+  color: #a8cbf7;
+}
+
+.section1_feature:nth-child(3)::before{
+  content: '03';
+}
+
+.section1_feature:nth-child(4)::before{
+  content: '04';
+}
+
+.section1 p{
+  padding-bottom: 3rem;
+}
+
+.section1_img{
+  padding-top: 10rem;
+}
+/*end section 1 */
+
+.section2{
+  padding-bottom: 5rem;
+}
+
+.section2 .page_btn{
+  margin-bottom: 2rem;
+}
+/*end section2*/
+
+.section3{
+  background-image: url(http://www.cubica.com.pl/wp-content/themes/synteco/images/bg-support.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+	width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+}
+
+.section3_main{
+  padding-bottom: 8rem;
+}
+
+.section3_h2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  text-align: right;
+}
+
+.section3_h2::before{
+  display: block;
+  content: "";
+  width: 6rem;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section3_quote{
+  font-weight: 700;
+  padding: 3rem 0 3rem 3rem;
+}
+
+.section3_quote::before,
+.section3_quote::after{
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  content: '';
+  background: url(http://www.cubica.com.pl/wp-content/themes/synteco/images/quote.svg) no-repeat;
+}
+
+.section3_quote::before{
+  top: 1rem;
+  left: 1rem;
+}
+
+.section3_quote::after{
+  bottom: 1rem;
+  right: 0;
+  background-position: right;
+}
+
+.section3_feature h5{
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.section3_feature img{
+  margin-right: 0.5rem;
+}
+/*end section3*/
+
+.section4{
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+.section4 img{
+  width: 100%;
+  height: auto;
+}
+
+/* end section 4*/
+
+.partners_slider{
+  padding-bottom: 4rem;
+}
+
+.partners_slider_item{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+/* end section5 */
+
+footer{
+  background-color: #3d3d3d;
+  color: #aaaaaa;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer a:hover{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.footer_main{
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.footer_small{
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 992px){
+  .section3_h2{
+    text-align: center;
+  }
+}
+
+.section3_h2::before{
+  right: 40%;
+}
+
+@media (max-width: 768px){
+  .section1_img{
+    padding-top: 2rem;
+  }
+
+  .footer_main .brand_logo{
+    display: none;
+  }
+}
